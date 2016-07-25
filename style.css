@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body, input {
+    font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-width: 100vh;
+}
+
+.new-item-form {
+    padding: 1em;
+    margin: 2em;
+    height: 175px;
+    background-color: #62ECFF;
+    border: 1px solid rgb(49, 156, 171);
+    box-shadow: 1px 1px 1px 0px rgba(4, 15, 16, 0.5);
+}
+
+.new-item-form label {
+    color: rgb(49, 156, 171);
+}
+
+.new-item-form input {
+    display: block;
+    background-color: rgb(71, 220, 240);
+    border:  none;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 2em;
+    transition: all 0.3s;
+}
+
+.new-item-form input:focus {
+    outline: none;
+    box-shadow: 2px 2px 3px 0px rgb(41, 190, 210);
+    transform: scale(1.02);
+}
+
+input[type="submit"], button {
+    outline: none;
+    margin-top: 1em;
+    background-color: rgb(71, 220, 240);
+    border:  none;
+}
+
+input[type="submit"]:hover, button:hover {
+    outline: none;
+    background-color: rgb(47, 209, 230);
+    box-shadow: 1px 1px 1px 0px rgba(4, 15, 16, 0.5);
+    transform: translate(1px, 1px);
+}
+
+input[type="submit"]:active, button:active {
+    outline: none;
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 3px 0px rgba(4, 15, 16, 0.5);
+}
+
+input[type="submit"]:disabled, button:disabled {
+  opacity: 0.5;
+}
+
+
+.item-list {}
+
+.item-list-item {}
