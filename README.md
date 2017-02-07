@@ -22,10 +22,6 @@ Users should be able to:
 - The submit button should be enabled if there is valid content in the input field.
 - Each item should have a button that removes it from the page.
 
-### Phase Three
-
-- Items should persist in local storage.
-
 ## Rubric
 
 ### JavaScript Style
