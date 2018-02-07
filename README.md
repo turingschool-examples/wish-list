@@ -13,7 +13,7 @@ Keeping track of the things you want is hard. What if you really wanted an infla
 Users should be able to:
 
 - Type the name of the thing they want into the input field
-- When they hit the submit button, the item should appear in the `section` with the class of `.item-list` using the correct semantic tag.
+- When they hit the submit button, the item should appear in the `ul` with the class of `.item-list` using the correct semantic tag.
 - The input field should be cleared out after the item has been successfully submitted.
 
 ### Phase Two
